@@ -80,7 +80,7 @@ body{
     grid-template-rows: 1fr 2fr 2fr 2fr;
 }
 
-.dash-board{
+.side-bar{
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     background-color:#0284c7;
@@ -89,17 +89,17 @@ body{
     grid-row: 1 / span 4;
 }
 
-.dash-board img{
+.side-bar img{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(105deg) brightness(102%) contrast(102%);
     margin-top: 10px;
     width: 60px;
     color: white;
 }
-.dash-board a{
+.side-bar a{
     text-decoration: none;
     color: white;
 }
-.dash-board .logo-name{
+.side-bar .logo-name{
     grid-row: 1 / span 1;
     grid-column: 1/ span 1;
     display: flex;
@@ -109,7 +109,7 @@ body{
     font-weight: bold;
     margin-left: 22px;
 }
-.dash-board .logo-name div{
+.side-bar .logo-name div{
     margin-top: 10px;
 }
 .pages{
@@ -132,6 +132,28 @@ body{
     background-color: white;
     grid-column: 2 / span 3;
     grid-row: 1 / span 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.search-bar{
+    display: flex;
+    grid-column: 1/span 1;
+    grid-row: 1 / span 1;
+    align-items: center;
+    gap: 10px;
+}
+.search-bar img{
+    width: 20px;
+    
+}
+input[type="search"]{
+    height: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: none;
+    background-color: #d1d5db;
 }
 
 .content{
