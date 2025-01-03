@@ -1,3 +1,78 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body{
+    font-family: "Roboto";
+}
 .container{
     height: 100vh;
     display: grid;
@@ -6,12 +81,53 @@
 }
 
 .dash-board{
-    background-color:rgb(29, 111, 218);
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    background-color:#0284c7;
     color: white;
     grid-column: 1;
     grid-row: 1 / span 4;
 }
 
+.dash-board img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(105deg) brightness(102%) contrast(102%);
+    margin-top: 10px;
+    width: 60px;
+    color: white;
+}
+.dash-board a{
+    text-decoration: none;
+    color: white;
+}
+.dash-board .logo-name{
+    grid-row: 1 / span 1;
+    grid-column: 1/ span 1;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+.dash-board .logo-name div{
+    margin-top: 10px;
+}
+.pages{
+    grid-row: 2/ span 1;
+    grid-column: 1 / span 1;
+}
+.pages img, .settings img{
+    width: 20px;
+    margin-right: 20px;
+}
+.pages li, .settings li{
+    list-style: none;
+    font-weight: bold;
+    
+}
+.settings{
+    grid-row: 3/span 1;
+}
 .header{
     background-color: white;
     grid-column: 2 / span 3;
