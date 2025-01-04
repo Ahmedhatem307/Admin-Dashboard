@@ -132,7 +132,7 @@ body{
     background-color: white;
     grid-column: 2 / span 3;
     grid-row: 1 / span 1;
-    padding: 20px;
+    padding: 25px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -153,11 +153,73 @@ input[type="search"]{
     flex-grow: 1;
     border-radius: 10px;
     border: none;
-    background-color: #d1d5db;
+    background-color: #e5e7eb;
 }
 
+.header img{
+    width: 30px;
+}
+#pp{
+    width: 40px;
+}
+#big-p{
+    width: 60px;
+    justify-self: center;
+    align-self: center;
+    grid-row: 1 / span 2;
+}
+#user-name{
+    grid-column: 2 / span 1;
+    font-size: 14px;
+}
+
+.head-profile{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 2;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    text-align: center;
+    margin-right: 30px;
+}
+.head-profile h4{
+    align-self: center;
+}
+
+.name-buttons{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+.name{
+    display: grid;
+    grid-template-rows: 30px 50px;
+    grid-template-columns: 1fr 7fr;
+    
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0284c7;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
 .content{
     grid-column: 2 / span 3;
     grid-row: 2 / span 3;
-    background-color: gray;
+    background-color: #e5e7eb;
 }
