@@ -39,15 +39,15 @@ To view or modify this project:
 ## Project Structure
 
 ```plaintext
-admin-dashboard/
+Admin-Dashboard/
 ├── index.html
 ├── style.css
 └── img/
 ```
 
 - `index.html`: Main HTML file containing the structure of the dashboard.
-- `styles/`: Contains CSS files for styling different parts of the dashboard.
-- `img` : Directories for images and icons used in the project.
+- `style.css`: Contains CSS files for styling different parts of the dashboard.
+- `img/`: Directories for images and icons used in the project.
 
 ## Key Concepts
 
