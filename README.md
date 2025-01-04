@@ -25,13 +25,13 @@ To view or modify this project:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ahmedhatem307/admin-dashboard.git
+   git clone https://github.com/ahmedhatem307/Admin-Dashboard.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd admin-dashboard
+   cd Admin-Dashboard
    ```
 
 3. **Open `index.html` in your browser** to view the dashboard.
@@ -39,15 +39,15 @@ To view or modify this project:
 ## Project Structure
 
 ```plaintext
-admin-dashboard/
+Admin-Dashboard/
 ├── index.html
 ├── style.css
 └── img/
 ```
 
 - `index.html`: Main HTML file containing the structure of the dashboard.
-- `styles/`: Contains CSS files for styling different parts of the dashboard.
-- `images/` and `icons/`: Directories for images and icons used in the project.
+- `style.css`: Contains CSS files for styling different parts of the dashboard.
+- `img/`: Directories for images and icons used in the project.
 
 ## Key Concepts
 
@@ -64,7 +64,7 @@ admin-dashboard/
 
 ## Live Demo
 
-Check out the live version of the project [here](https://ahmedhatem307.github.io/admin-dashboard/).
+Check out the live version of the project [here]([(https://ahmedhatem307.github.io/Admin-Dashboard/)]).
 
 
 ---
